@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="wynik"></p>
+
+<script>
+     const cars = ["Saab", "Volvo", "BMW","Fiat"];
+     const wynikElement = document.getElementById("wynik");
+     for (let i = 0; i < cars.length; i++) 
+     {
+     wynikElement.innerHTML += (i + 1) + ". " + cars[i] + "<br>";
+     }
+</script>
+</body>
+</html>
